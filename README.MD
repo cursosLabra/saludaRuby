@@ -11,5 +11,7 @@ Ejemplo de aplicación en Ruby. Contiene una clase simple `Saludador` y:
 
 ```ruby -Ilib bin/server```
 
+[![Build Status](https://travis-ci.org/cursosLabra/saludaRuby.svg?branch=master)](https://travis-ci.org/cursosLabra/saludaRuby)
+
 
 
