@@ -1,0 +1,22 @@
+#! /usr/local/bin/ruby
+
+require 'sinatra'
+require 'saluda/saludador'
+
+saludador = Saluda::Saludador.new
+
+get '/saluda/:nombre' do |n|
+  saludador.saluda(n)
+end
+
+get '/saluda' do
+ saludador.saluda(params[:nombre])
+end
+
+get '/' do
+ %(<p>Nombre:
+    <form method='GET' action='/saluda'>
+     <input name='nombre' type='text'/>
+   </form>
+   </p>)
+end
