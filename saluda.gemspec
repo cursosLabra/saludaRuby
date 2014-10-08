@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 	s.name = "saluda"
 	s.summary = "Saludar a personas"
-	s.description = File.read(File.join(File.dirname(__FILE__), 'README'))
+	s.description = File.read(File.join(File.dirname(__FILE__), 'README.MD'))
 	s.version = "0.0.1"
 	s.author = "Jose Labra"
 	s.email = "labra@uniovi"
