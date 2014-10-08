@@ -1,0 +1,5 @@
+#! /usr/local/bin/ruby
+
+require 'saluda/saludador'
+saludador = Saluda::Main.new(ARGV)
+saludador.run
