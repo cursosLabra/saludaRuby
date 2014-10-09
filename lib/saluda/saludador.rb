@@ -4,7 +4,7 @@ module Saluda
 
  class Saludador
    def saluda(nombre)
-    "Hi!: " + nombre
+    "Hola: " + nombre
    end
  end
  
